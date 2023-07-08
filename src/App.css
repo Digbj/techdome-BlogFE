@@ -1,0 +1,225 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------Nav Bar-----------------------------------*/
+.nav{
+  border: 1px solid black;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.nav1{
+  margin: 10px;
+}
+.nav11{
+  color: black;
+  text-decoration: underline white;
+}
+.nav2{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ho{
+  border: 1px solid black;
+  border-radius: 15px;
+  width:120px;
+  height: 30px;
+  margin: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: underline black;
+  color: white;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.ho:hover{
+  text-decoration: underline white;
+  color: black;
+  background-color:white;
+
+}
+ /*------------------------------Home----------------------------------------*/
+ .home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(9, 9, 9);
+  background-image: url('https://img.freepik.com/premium-photo/feather-quill-pen-glass-inkwell-desk_488220-27387.jpg?w=996');
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: 110%;
+ }
+
+ .title{
+  margin: 0;
+  font-size: extra-large;
+  color: azure;
+  /* border: 1px solid azure; */
+ }
+ #title1{
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+ }
+ #title2{
+  color: rgb(76, 241, 203);
+  font-weight: lighter;
+  font-size: 50px;
+ }
+ .log{
+  height: 30px;
+  width: 80px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color:rgb(209, 215, 215);
+  color: rgb(2, 2, 2);
+  border-color:azure ;
+ }
+ .log:hover{
+  cursor: pointer;
+  background-color:rgb(3, 3, 3);
+  color: azure;
+  border-color:azure ;
+
+ }
+
+ /*-----------------------------------Login-----------------------------------*/
+ .login{
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/721/613/desktop-wallpaper-abstract-login-page.jpg');
+  background-size: 110%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+ }
+ .login>h3{
+  color: white;
+ }
+ .new1{
+  color: white;
+ }
+ .new2{
+  color: red;
+  font-size: medium;
+  font-weight: bold;
+ }
+ .login1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  height: 25vh;
+  width: 70vh;
+ }
+ .N1{
+  height: 5vh;
+  width: 70vh;
+  background-color: azure;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+ .N1 label{
+background-color: black;
+width: 15vh;
+color: azure;
+ }
+ .N1 input{
+  height: 4vh;
+  font-weight: bold;
+  background-color: azure;
+  outline: none;
+  border: none;
+ }
+ #clk{
+  color: aqua;
+  cursor: pointer;
+  font-weight: bolder;
+ }
+
+ /*----------------------------------Blog-----------------------------------*/
+.post{
+  background-color: rgb(62, 61, 61);
+  color: azure;
+  border: 1px solid black;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin: 3rem;
+}
+
+.myp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 5rem;
+}
+.cov{
+  border: 1px solid black;
+  border-top: 1rem;
+  height: 7rem;
+  width: 14.9rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.ho:hover{
+  cursor: pointer;
+}
+
+.create{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+/*-----------------------------------------------Single Post--------------------------------------------------*/
+.cov1{
+  margin: auto;
+height: 10rem;
+width: 100%;
+}
+.det{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.post1{
+
+  color: azure;
+  background-color: rgb(109, 105, 105);
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+}
+
+.footer{
+  margin-top: 0;
+  height: 3rem;
+  background-color: black;
+  color: azure;
+  align-items: center;
+  justify-content: center;
+}
